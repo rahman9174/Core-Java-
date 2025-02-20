@@ -14,5 +14,8 @@ public class ArrayShorthandRepresentationDemo4 {
         int[] arr = {10,20,30}; // this is the short hand representation of array decleration,creation and initilization
         System.out.println(arr[0]);
 
+//        Multi-Dimentional array single line representation
+        int[][] arr2 = {{10,20,30},{40,50,60}};
+        System.out.println(arr2[0][1]);// 20
     }
 }
